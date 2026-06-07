@@ -1,4 +1,5 @@
-# Engine artifacts are distributed as release assets, not committed.
+# Engine/stdlib artifacts are distributed as release assets, not committed.
 plantuml.js
 viz-global.js
 *.wasm
+*.puml

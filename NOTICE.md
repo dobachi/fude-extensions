@@ -9,6 +9,12 @@
 - ライセンス: PlantUML は **GPLv3**（このほか LGPL/MIT/Apache 等のオプションあり。詳細は上流参照）
 - ソースコードは上流リポジトリで入手可能です。
 
+## Archimate-PlantUML (`Archimate.puml` ほか archimate 一式)
+
+- 上流: https://github.com/plantuml-stdlib/Archimate-PlantUML
+- ArchiMate 用の PlantUML マクロ／テーマ／スプライト集。`plantuml-archimate` 拡張で配布。
+- ライセンス・著作権は上流に従います。
+
 ## Viz.js / Graphviz (`viz-global.js`)
 
 - 上流: Graphviz（https://graphviz.org/ ）を WebAssembly 化した Viz.js 系ビルド

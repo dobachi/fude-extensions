@@ -22,6 +22,72 @@
           "size": 7272331
         }
       ]
+    },
+    {
+      "id": "plantuml-archimate",
+      "name": "PlantUML ArchiMate",
+      "version": "3.2.1",
+      "description": "ArchiMate stdlib for PlantUML (!include <archimate/Archimate>). Resolved locally — no server, offline.",
+      "namespace": "archimate",
+      "requires": ["plantuml"],
+      "min_app_version": "0.4.0",
+      "total_size": 136173,
+      "files": [
+        {
+          "rel": "Archimate.puml",
+          "url": "https://github.com/dobachi/fude-extensions/releases/download/plantuml-archimate-3.2.1/Archimate.puml",
+          "sha256": "e873ecbfd8ea3ffaa9a28a5cd6185eb3df17d71bc69ab7ff78a154b5121fc38c",
+          "size": 23184
+        },
+        {
+          "rel": "ArchimateSequenceDiagramSupport.puml",
+          "url": "https://github.com/dobachi/fude-extensions/releases/download/plantuml-archimate-3.2.1/ArchimateSequenceDiagramSupport.puml",
+          "sha256": "fa56bc836c2c1861788f7d732ee1ca113f2058ee1432bf5f05994080a47694a6",
+          "size": 7693
+        },
+        {
+          "rel": "ArchimateSprites.puml",
+          "url": "https://github.com/dobachi/fude-extensions/releases/download/plantuml-archimate-3.2.1/ArchimateSprites.puml",
+          "sha256": "29f16edb696fe7e65c518ba9bd7ae639601b60a2e25225dab856de0c94a04fb4",
+          "size": 95336
+        },
+        {
+          "rel": "themes/shared_style.puml",
+          "url": "https://github.com/dobachi/fude-extensions/releases/download/plantuml-archimate-3.2.1/shared_style.puml",
+          "sha256": "4be279f70bc92dc19ac3a7934642a1e2223516f3cde4821565c7b83d3bd1445f",
+          "size": 5743
+        },
+        {
+          "rel": "themes/puml-theme-archimate-alternate.puml",
+          "url": "https://github.com/dobachi/fude-extensions/releases/download/plantuml-archimate-3.2.1/puml-theme-archimate-alternate.puml",
+          "sha256": "ddbf8d916e4ec81120ca694603d8a6efad519f02faaaa960ff3f3ffc25b13b5f",
+          "size": 878
+        },
+        {
+          "rel": "themes/puml-theme-archimate-handwriting.puml",
+          "url": "https://github.com/dobachi/fude-extensions/releases/download/plantuml-archimate-3.2.1/puml-theme-archimate-handwriting.puml",
+          "sha256": "cdca326fde3a00bc02f7c37050ea662ea35ceb601190b076135d211f04752e7d",
+          "size": 671
+        },
+        {
+          "rel": "themes/puml-theme-archimate-lowsaturation.puml",
+          "url": "https://github.com/dobachi/fude-extensions/releases/download/plantuml-archimate-3.2.1/puml-theme-archimate-lowsaturation.puml",
+          "sha256": "2f6383bd3c6692ea7c808a80b75ef70116b94968ff10d7acb98a1a959733c648",
+          "size": 886
+        },
+        {
+          "rel": "themes/puml-theme-archimate-saturated.puml",
+          "url": "https://github.com/dobachi/fude-extensions/releases/download/plantuml-archimate-3.2.1/puml-theme-archimate-saturated.puml",
+          "sha256": "cc924ef31427adf45a68b7287e87dc48cec1cef25215dcc60e85bff83f0a2c69",
+          "size": 878
+        },
+        {
+          "rel": "themes/puml-theme-archimate-standard.puml",
+          "url": "https://github.com/dobachi/fude-extensions/releases/download/plantuml-archimate-3.2.1/puml-theme-archimate-standard.puml",
+          "sha256": "ed0cdcfe73276db89786775005fb5f634cbb96640d93ae2492e847caf08e56e8",
+          "size": 904
+        }
+      ]
     }
   ]
 }
