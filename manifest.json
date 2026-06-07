@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "extensions": [
+    {
+      "id": "plantuml",
+      "name": "PlantUML Preview",
+      "version": "1.2026.6beta1",
+      "description": "Render PlantUML diagrams locally in the preview (TeaVM build + Graphviz/Viz.js). No server, offline after first download.",
+      "min_app_version": "0.4.0",
+      "total_size": 8717758,
+      "files": [
+        {
+          "rel": "viz-global.js",
+          "url": "https://github.com/dobachi/fude-extensions/releases/download/plantuml-1.2026.6beta1/viz-global.js",
+          "sha256": "ef2cd8a08b5cf8b65e3634131052b41870ff30bb6fb23e23a87fd09d44666cba",
+          "size": 1445427
+        },
+        {
+          "rel": "plantuml.js",
+          "url": "https://github.com/dobachi/fude-extensions/releases/download/plantuml-1.2026.6beta1/plantuml.js",
+          "sha256": "15125b2bebd20dc95476adb7c74a6c8c7be1889aa4a8dd838e389b0a6087bcaa",
+          "size": 7272331
+        }
+      ]
+    }
+  ]
+}
