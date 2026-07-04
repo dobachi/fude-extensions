@@ -23,6 +23,15 @@ SHA-256 で検証してダウンロード・キャッシュします。
 - 取得元: https://plantuml.github.io/plantuml/js-plantuml/
 - バージョン: 1.2026.6beta1
 
+### Mermaid Preview (`mermaid`)
+
+- Mermaid 図をローカル（サーバー不要・初回DL後はオフライン）で描画。
+- `.mmd` / `.mermaid` ファイル、および Markdown 内の ` ```mermaid ` フェンスに対応。
+- 実体は Mermaid 公式の UMD ビルド（`window.mermaid` を公開・自己完結／動的import無し）。
+  - `mermaid.min.js` — Mermaid エンジン
+- 取得元: https://cdn.jsdelivr.net/npm/mermaid@11.16.0/dist/mermaid.min.js
+- バージョン: 11.16.0
+
 ライセンス・著作権は各上流に従います。[NOTICE.md](NOTICE.md) を参照してください。
 
 ## リリース手順（メンテナ向け）
@@ -34,4 +43,14 @@ SHA-256 で検証してダウンロード・キャッシュします。
    sha256sum plantuml.js viz-global.js   # manifest.json の sha256 と size を更新
    ```
 2. 上記2ファイルを `plantuml-<version>` タグのリリースにアップロード。
+3. `manifest.json` の version / url / sha256 / size を更新して main にコミット。
+
+### Mermaid
+
+1. 公式 UMD ビルドを取得（`window.mermaid` を公開する自己完結ビルド）:
+   ```
+   curl -LO https://cdn.jsdelivr.net/npm/mermaid@<version>/dist/mermaid.min.js
+   sha256sum mermaid.min.js   # manifest.json の sha256 と size を更新
+   ```
+2. `mermaid.min.js` を `mermaid-<version>` タグのリリースにアップロード。
 3. `manifest.json` の version / url / sha256 / size を更新して main にコミット。

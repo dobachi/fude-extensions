@@ -21,6 +21,13 @@
 - ライセンス: Graphviz は **Common Public License / Eclipse Public License** 系
 - 詳細・ソースは上流を参照してください。
 
+## Mermaid (`mermaid.min.js`)
+
+- 上流: https://github.com/mermaid-js/mermaid
+- ライセンス: **MIT**
+- 公式 npm 配布の UMD ビルド（`dist/mermaid.min.js`）を再配布しています。
+- 詳細・ソースは上流を参照してください。
+
 ---
 
 配布にあたり各ライセンスの条件（ソース提供義務等）を遵守してください。
